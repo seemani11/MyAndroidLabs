@@ -58,7 +58,8 @@ public class MainActivity extends AppCompatActivity {
         });
 
           imgbtn.setOnClickListener( (View v)->{
-              Toast.makeText(getApplicationContext(), "height: "+ imgbtn.getHeight()+" width: "+ imgbtn.getWidth(),Toast.LENGTH_LONG).show();
+              String result = "height: "+ imgbtn.getHeight()+" width: "+ imgbtn.getWidth()+" \nMovie: "+cbstatus+", Coffee: "+swtstatus+", terms agree: "+ rbstatus;
+              Toast.makeText(getApplicationContext(),result ,Toast.LENGTH_LONG).show();
           });
     }
 
