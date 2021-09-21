@@ -36,7 +36,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_margin="10dp"
-        android:text="This is a checkbox"
+        android:text="Movie tonght?"
         android:id="@+id/cb">
 
     </CheckBox>
@@ -45,18 +45,33 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_margin="10dp"
-        android:text="this is switch"
+        android:text="Coffe Tonght?"
         android:id="@+id/sw"></Switch>
     <RadioButton
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_margin="10dp"
-        android:text="this is a radiobutton"
+        android:text="agree on terms?"
         android:id="@+id/rb"
         >
 
     </RadioButton>
 
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:src="@drawable/logo_algonquin"
+        android:id="@+id/logo_algonquin"
+        />
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/logo_algonquin"
+        android:padding="10dp"
+        android:id="@+id/myimagebutton"
+        />
 
 
 
