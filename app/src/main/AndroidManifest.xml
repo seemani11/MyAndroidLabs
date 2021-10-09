@@ -9,6 +9,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.SeemasAndroidLabs">
         <activity
+            android:name=".SecondActivity"
+            android:exported="true" />
+        <activity
             android:name=".MainActivity"
             android:exported="true">
             <intent-filter>
