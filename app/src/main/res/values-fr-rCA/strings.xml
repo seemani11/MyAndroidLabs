@@ -3,4 +3,6 @@
     <string name="app_name">Seema\'s Android Labs</string>
     <string name="hello_message">bonjour tout le monde!</string>
     <string name="button_message">je suis un bouton</string>
+    <string name="send_button_label">ENVOYER</string>
+    <string name="receive_button_label">RECEVOIR</string>
 </resources>

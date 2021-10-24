@@ -2,5 +2,6 @@
     <string name="app_name">Seema\'s Android Labs</string>
     <string name="hello_message">Hello world!</string>
     <string name="button_message">I\'m a button</string>
-
+    <string name="send_button_label">SEND</string>
+    <string name="receive_button_label">RECEIVE</string>
 </resources>
