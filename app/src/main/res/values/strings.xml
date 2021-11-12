@@ -4,4 +4,8 @@
     <string name="button_message">I\'m a button</string>
     <string name="send_button_label">SEND</string>
     <string name="receive_button_label">RECEIVE</string>
+    <string name="call_number_label" translatable="false">call number</string>
+    <string name="change_picture_babel" translatable="false">change picture</string>
+    <string name="header_text_label" translatable="false">Label</string>
+    <string name="input_hint_text" translatable="false">Enter here</string>
 </resources>
