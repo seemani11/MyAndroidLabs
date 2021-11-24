@@ -5,6 +5,15 @@
       <map>
         <entry key="..\:/Seema/Fall-turm2021-Sep/CST2335-Graphical-interface-prog/Lab/lab1/app/src/main/res/layout/activity_main.xml" value="0.2640625" />
         <entry key="..\:/Users/gurung/OneDrive/Desktop/abhinav/seema-android/lab1/Seema_Android_Lab1/app/src/main/res/layout/activity_main.xml" value="0.20520833333333333" />
+        <entry key="..\:/Users/gurung/OneDrive/Desktop/abhinav/seema-android/labs/MyAndroidLabs/app/src/main/res/layout-sw600dp/empty_layout.xml" value="0.204296875" />
+        <entry key="..\:/Users/gurung/OneDrive/Desktop/abhinav/seema-android/labs/MyAndroidLabs/app/src/main/res/layout/activity_main.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/gurung/OneDrive/Desktop/abhinav/seema-android/labs/MyAndroidLabs/app/src/main/res/layout/activity_second.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/gurung/OneDrive/Desktop/abhinav/seema-android/labs/MyAndroidLabs/app/src/main/res/layout/chatlayout.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/gurung/OneDrive/Desktop/abhinav/seema-android/labs/MyAndroidLabs/app/src/main/res/layout/details_layout.xml" value="0.20520833333333333" />
+        <entry key="..\:/Users/gurung/OneDrive/Desktop/abhinav/seema-android/labs/MyAndroidLabs/app/src/main/res/layout/empty_layout.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/gurung/OneDrive/Desktop/abhinav/seema-android/labs/MyAndroidLabs/app/src/main/res/layout/receive_layout.xml" value="0.20520833333333333" />
+        <entry key="..\:/Users/gurung/OneDrive/Desktop/abhinav/seema-android/labs/MyAndroidLabs/app/src/main/res/layout/receive_message.xml" value="0.27239583333333334" />
+        <entry key="..\:/Users/gurung/OneDrive/Desktop/abhinav/seema-android/labs/MyAndroidLabs/app/src/main/res/layout/sent_message.xml" value="0.27239583333333334" />
       </map>
     </option>
   </component>

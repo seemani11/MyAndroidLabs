@@ -3,4 +3,6 @@
     <string name="app_name">Seema\'s Android Labs</string>
     <string name="hello_message">bonjour tout le monde!</string>
     <string name="button_message">je suis un bouton</string>
+    <string name="city_label">Type city name in FR</string>
+    <string name="forecast_message">OBTENIR LA PRÉVISION</string>
 </resources>
