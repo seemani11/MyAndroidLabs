@@ -88,15 +88,21 @@ public class MainActivity extends AppCompatActivity {
                     Bitmap image = null;
                     //save the icon
 
-
+                    File file = new File(getFilesDir(), iconName + ".png");
+                    if(file.exists()){
+                        image = BitmapFactory.decodeFile(getFilesDir()+ "/"+iconName +".png");
+                    }else{
                         URL imgUrl = new URL("https://openweathermap.org/img/w/" + iconName + ".png");
                         HttpURLConnection connection = (HttpURLConnection) imgUrl.openConnection();
                         connection.connect();
                         int responseCode = connection.getResponseCode();
 
-                        if(responseCode == 200) {
+                        if(responseCode == 200){
                             image = BitmapFactory.decodeStream(connection.getInputStream());
-                            //image.compress(Bitmap.CompressFormat.PNG, 100, openFileOutput(iconName+ ".png", Activity.MODE_PRIVATE));
+                            image.compress(Bitmap.CompressFormat.PNG, 100, openFileOutput(iconName+ ".png", Activity.MODE_PRIVATE));
+                        }
+                    }
+
                             Bitmap finalImage = image;
                             runOnUiThread(() -> {
                                 TextView tv = findViewById(R.id.temp);
@@ -124,7 +130,7 @@ public class MainActivity extends AppCompatActivity {
                                 iv.setImageBitmap(finalImage);
                                 iv.setVisibility(View.VISIBLE);
                             });
-                        }
+
                     //save icon to the device
                     FileOutputStream fout = null;
                     try{
